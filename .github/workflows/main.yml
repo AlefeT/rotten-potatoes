@@ -26,6 +26,5 @@ jobs:
           file: /src/Dockerfile
           push: true
           tags: |
-          alefet/rotten-potatoes:latest
-          alefet/rotten-potatoes:${{ github.run_number }}
-    
+            alefet/rotten-potatoes:latest
+            alefet/rotten-potatoes:${{ github.run_number }}
